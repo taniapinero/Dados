@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#resultado{
+    margin-top: 5%;
+}
+
+#rondas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rondas{
+    margin: 10px 0;
+}
+
+.dados{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.dados img{
+    width: 50px;
+    height: 50px;
+}
+
+#controles{
+    margin-top: 20px;
+    margin-bottom: 10%;
+}
+
+button{
+    margin: 5px;
+}
+
+button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ced4da;
+    box-shadow: 0 5px #adb5bd;
+  }
+  button:hover {
+    box-shadow: 0 3px #adb5bd;
+    top: 1px;
+  }
+  button:active {
+    box-shadow: 0 0 #adb5bd;
+    top: 5px;
+  }
